@@ -8,7 +8,21 @@ function generador() {
   let numero = document.querySelector("#numero");
   let pinta1 = document.querySelector("#pinta-1");
   let pinta2 = document.querySelector("#pinta-2");
-  let numeros = ["A", "2", "3", "4", "5", "6", "8", "9", "10", "J", "Q", "K"];
+  let numeros = [
+    "A",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "J",
+    "Q",
+    "K"
+  ];
   numero.innerHTML = numeros[Math.floor(Math.random() * 13)];
 
   let pintas = ["♦", "♥", "♣", "♠"];
